@@ -1,0 +1,121 @@
+*{
+ margin:0px;
+ padding:0px;
+ box-sizing: border-box;   
+}
+
+
+body{
+    height:100vh;
+}
+
+.text{
+    margin:40px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.col-second{
+    margin:40px;
+}
+
+.login,.signup{
+    cursor: pointer;
+}
+.col-second a{
+    color:white;
+    text-decoration: none;
+    text-align: center;
+    margin-left:10px;
+    padding: 15px;
+
+}
+
+.col-second a:hover{
+    border: 1px solid white;
+    border-radius: 20px;
+}
+.main-page{
+    display:grid;
+    grid-template-areas: "header-nav" "main-content"  "footer";
+    grid-template-columns: 1fr ;
+    grid-template-rows:  3rem 1fr 5rem;
+    height: 100%;
+    
+}
+
+.header-nav{
+    display: flex;
+    margin-top: 20px;
+    background-color: white;
+}
+
+.header-text{
+    margin-right:10px;
+    margin-left:20px;
+    font-size: small;
+    display: flex;
+}
+
+.desktop{
+    color: rgb(126, 122, 122);
+    text-align: center;
+    
+}
+
+.content{
+    margin-top:240px;
+    margin-left: 220px;
+    position: relative;;
+    font-weight: bolder;
+    font-size:30px;
+
+
+    
+
+
+}
+
+.main-content{
+
+grid-area: main-content;
+height: 100%;
+}
+
+.footer{
+
+    grid-area: footer;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+
+}
+.main-content{
+    background-image: url(../images/laptop.jpg);
+    background-size: cover;
+}
+
+.row-first{
+    display: flex;
+    justify-content: space-between;
+    height: 20vh;
+}
+
+
+.center-text{
+    margin-left: 500px;
+    margin-top:80px;
+    font-weight: bolder;
+    line-height: 1em;
+    font-family: monospace;
+    width: 600px;
+    color:white;
+    text-align: center;
+    font-size: 50px;
+}
+
+
+
+
+
